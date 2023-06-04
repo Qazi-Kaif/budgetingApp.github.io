@@ -1,0 +1,77 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #74eef7;
+}
+
+h1 {
+  text-align: center;
+  text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+#budget-container, #expense-container, #data-container {
+  margin-bottom: 20px;
+  /* display: flex;
+  justify-content: center; */
+}
+#budget-container{
+  text-align: center;
+  
+}
+#expense-container{
+  text-align: center;
+}
+.last{
+  text-align: center;
+}
+/* #data-container{
+  background-color: #ffffff;
+} */
+
+#budget-info, #expense-info {
+  color: rgba(209, 103, 28, 0.986);
+  margin-top: 5px;
+}
+
+#budget-display {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#remaining-budget {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input[type="number"] {
+  width: 100px;
+}
+
+input[type="date"] {
+  width: 200px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: #fff;
+}
